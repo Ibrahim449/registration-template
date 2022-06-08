@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container mainClass d-flex justify-content-center align-items-center">
+
+        <form class="row g-3">
+            <h1 class="head">Register</h1>
+
+            <div class="col-md-12">
+                <div class="select-box ">
+                    <div class="options-container">
+                      <div class="option">
+                        <input
+                          type="radio"
+                          class="radio"
+                          id="India"
+                          name="category"
+                        />
+                        <label for="automobiles">India</label>
+                      </div>
+            
+                      <div class="option">
+                        <input type="radio" class="radio" id="Austrelia" name="category" />
+                        <label for="Austrelia">Austrelia</label>
+                      </div>
+            
+                      <div class="option">
+                        <input type="radio" class="radio" id="Bahrain" name="category" />
+                        <label for="Bahrain">Bahrain</label>
+                      </div>
+            
+                      <div class="option">
+                        <input type="radio" class="radio" id="Belgium" name="category" />
+                        <label for="Belgium">Belgium</label>
+                      </div>
+            
+                      <div class="option">
+                        <input type="radio" class="radio" id="Canada" name="category" />
+                        <label for="Canada">Canada</label>
+                      </div>
+            
+                      <div class="option">
+                        <input type="radio" class="radio" id="Croatia" name="category" />
+                        <label for="Croatia">Croatia</label>
+                      </div>
+            
+                      <div class="option">
+                        <input type="radio" class="radio" id="Denmark" name="category" />
+                        <label for="Denmark">Denmark</label>
+                      </div>
+            
+                      <div class="option">
+                        <input type="radio" class="radio" id="France" name="category" />
+                        <label for="France">France</label>
+                      </div>
+            
+                      <div class="option">
+                        <input type="radio" class="radio" id="Germany" name="category" />
+                        <label for="Germany">Germany</label>
+                      </div>
+                    </div>
+            
+                    <div class="selected bg-light">
+                      Select Country
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-12">
+              <label for="validationDefault01" class="form-label">Legal First name</label>
+              <input type="text" class="form-control border-0 bg-light" id="Fname" required>
+            </div>
+
+            <div class="col-md-12">
+              <label for="validationDefault02" class="form-label">Legal Last name</label>
+              <input type="text" class="form-control border-0 bg-light" id="Lname" required>
+            </div>
+
+            <div class="col-md-12 col-sm-12">
+              <label for="validationDefaultUsername" class="form-label">Phone Number</label>
+              <div class="input-group">
+                <div class="row">
+                    <div class="col-md-2 col-lg-1 col-sm-2 col-3">
+                        <span class="input-group-text border-0 bg-light" id="codeId">+91</span>
+                    </div>
+
+                    <div class="col-md-10 col-lg-11 col-sm-10 col-9">
+                        <input type="number" class="form-control border-0 bg-light" id="phoneNumber"  aria-describedby="inputGroupPrepend2" required>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <input class="col-12 submit fw-bold" id="verifyBtn" type="submit" value="Verify Now" disabled></input>
+            </div>
+          </form>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
